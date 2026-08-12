@@ -74,8 +74,10 @@ make -j
 ## Running
 
 Place the generated `.nro` and the required game files in the appropriate `pvz2_nx` folder on your SD card, then launch it through your Nintendo Switch homebrew environment.
-place the files like this: sd/switch/pvz2_nx/ -> place nro and the 13.3.1 xapk here and rename 13.3.1 pvz xpk to pvz2.xapk
-
+place the files like this: sd/switch/pvz2_nx/
+-sd/switch/pvz2_nx/pvz2_nx.nro
+-sd/switch/pvz2_nx/pvz2.xapk
+Launch the app it will do the rest
 
 ---
 

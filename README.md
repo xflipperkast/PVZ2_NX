@@ -35,7 +35,7 @@ The project provides the Switch-side compatibility layer needed to run the Andro
 - libnx
 - GNU Make
 - The original `pvz2_nx` Makefile / linker setup
-- Your own legally obtained **PvZ2 Android 13.3.1** files
+- Your own legally obtained **PvZ2 Android 13.3.1** files (XAPK)
 
 ### Compile
 

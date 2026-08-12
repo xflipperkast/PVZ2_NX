@@ -85,6 +85,8 @@ place the files like this:
 
 Some builds may contain experimental fixes or diagnostics. A build should not be considered hardware-stable until it has been tested on an actual Nintendo Switch. Exampled: (Stable 1.0.0/ Dev 1.0.1)
 
+-Working shop is not possible to make.
+
 ---
 
 ## Support

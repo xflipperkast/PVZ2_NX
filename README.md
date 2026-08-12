@@ -67,7 +67,7 @@ make -j
 ```
 
 > Some source-only development packages do not include the original Makefile, linker configuration, or `elf2nro` setup.  
-> If they are missing, use the build files from your existing working `pvz2_nx` environment. (HOLD R when opening homebrew manu true a game) applet mode does NOT work propperly
+> If they are missing, use the build files from your existing working `pvz2_nx` environment. (HOLD R when opening homebrew menu true a game or run directly as a forwarded app) applet mode does NOT work propperly
 
 ---
 

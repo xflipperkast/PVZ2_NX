@@ -81,7 +81,7 @@ Place the generated `.nro` and the required game files in the appropriate `pvz2_
 
 `pvz2_nx` is still under development.
 
-Some builds may contain experimental fixes or diagnostics. A build should not be considered hardware-stable until it has been tested on an actual Nintendo Switch.
+Some builds may contain experimental fixes or diagnostics. A build should not be considered hardware-stable until it has been tested on an actual Nintendo Switch. Exampled: (Stable 1.0.0/ Dev 1.0.1)
 
 ---
 

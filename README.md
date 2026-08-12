@@ -74,6 +74,8 @@ make -j
 ## Running
 
 Place the generated `.nro` and the required game files in the appropriate `pvz2_nx` folder on your SD card, then launch it through your Nintendo Switch homebrew environment.
+place the files like this:
+
 
 ---
 

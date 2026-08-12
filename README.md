@@ -74,7 +74,7 @@ make -j
 ## Running
 
 Place the generated `.nro` and the required game files in the appropriate `pvz2_nx` folder on your SD card, then launch it through your Nintendo Switch homebrew environment.
-place the files like this:
+place the files like this: sd/switch/pvz2_nx/ -> place nro and the 13.3.1 xapk here and rename 13.3.1 pvz xpk to pvz2.xapk
 
 
 ---
@@ -85,7 +85,13 @@ place the files like this:
 
 Some builds may contain experimental fixes or diagnostics. A build should not be considered hardware-stable until it has been tested on an actual Nintendo Switch. Exampled: (Stable 1.0.0/ Dev 1.0.1)
 
--Working shop is not possible to make.
+-- things i want to fix/add (if possible) -- 
+- Modded shop with plants costing gems or coins instead
+- Working login with EA Cloud saving
+- Arena
+- better optimization for less lag
+- Updater
+- TBA
 
 ---
 

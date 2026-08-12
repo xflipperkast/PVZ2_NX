@@ -106,3 +106,7 @@ If you like the project and want to support development:
 This is an unofficial fan-made project and is not affiliated with or endorsed by **PopCap Games** or **Electronic Arts**.
 
 Plants vs. Zombies 2 and all related trademarks, artwork, audio, game assets, and other copyrighted material belong to their respective owners.
+
+## Contribution
+
+Are you able to make worthy updates to the port like fixing a bug, Optimizing or other stuff. Feel free to help the port run better. Make a issue for issues or help by making a well documented pull request

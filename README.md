@@ -93,7 +93,6 @@ Some builds may contain experimental fixes or diagnostics. A build should not be
 -- things i want to fix/add (if possible) -- 
 - Modded shop with plants costing gems or coins instead
 - Working login with EA Cloud saving
-- Arena
 - better optimization for less lag
 - Updater
 - TBA

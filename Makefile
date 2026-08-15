@@ -13,7 +13,7 @@ include $(DEVKITPRO)/libnx/switch_rules
 TARGET		:=	pvz2_nx
 APP_TITLE	:=	Plants vs. Zombies 2
 APP_AUTHOR	:=	Electronic Arts, Flippy
-APP_VERSION	:=	0.1.0
+APP_VERSION	:=	1.1.0
 BUILD		:=	build
 SOURCES		:=	source
 DATA		:=	data

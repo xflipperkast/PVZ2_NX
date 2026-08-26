@@ -13,7 +13,7 @@ include $(DEVKITPRO)/libnx/switch_rules
 TARGET		:=	pvz2_nx
 APP_TITLE	:=	Plants vs. Zombies 2
 APP_AUTHOR	:=	Electronic Arts, Flippy
-APP_VERSION	:=	1.1.0
+APP_VERSION	:=	1.2.0
 BUILD		:=	build
 SOURCES		:=	source
 DATA		:=	data
@@ -30,15 +30,15 @@ VERSION_HEADER	:=	source/game_version.h
 #---------------------------------------------------------------------------------
 ARCH	:=	-march=armv8-a+crc+crypto -mtune=cortex-a57 -mtp=soft -fPIE
 
-CFLAGS	:=	-g -Wall -O2 -ffunction-sections \
+CFLAGS	:=	-Wall -O2 -ffunction-sections \
 			$(ARCH) $(DEFINES)
 
 CFLAGS	+=	$(INCLUDE) -D__SWITCH__
 
 CXXFLAGS	:= $(CFLAGS)
 
-ASFLAGS	:=	-g $(ARCH)
-LDFLAGS	=	-specs=$(DEVKITPRO)/libnx/switch.specs -g $(ARCH) -Wl,-Map,$(notdir $*.map) \
+ASFLAGS	:=	$(ARCH)
+LDFLAGS	=	-specs=$(DEVKITPRO)/libnx/switch.specs $(ARCH) -Wl,-Map,$(notdir $*.map) \
 			-Wl,--wrap=getaddrinfo -Wl,--wrap=freeaddrinfo
 
 # The game uses the GLES2/EGL stack supplied by switch-mesa. SDL2 provides the
@@ -68,7 +68,7 @@ export VPATH	:=	$(foreach dir,$(SOURCES),$(CURDIR)/$(dir)) \
 export DEPSDIR	:=	$(CURDIR)/$(BUILD)
 
 CFILES		:=	main.c error.c imports.c jni_fake.c libc_shim.c \
-			music.c nx_crash_handler.c obb.c opensles.c os_shims.c platform.c pvz2.c so_util.c util.c watchdog.c editbox.c
+			installer.c music.c nx_crash_handler.c obb.c opensles.c os_shims.c platform.c pvz2.c level_profile.c startup_trace.c so_util.c util.c watchdog.c editbox.c
 CPPFILES	:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.cpp)))
 SFILES		:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.s)))
 BINFILES	:=	$(foreach dir,$(DATA),$(notdir $(wildcard $(dir)/*.*)))

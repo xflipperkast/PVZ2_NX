@@ -25,6 +25,45 @@ The project provides the Switch-side compatibility layer needed to run the Andro
 > This repository does **not** include Plants vs. Zombies 2 game assets or other proprietary files.
 
 ---
+## Controls
+
+PVZ2 NX supports both touchscreen and Nintendo Switch controller input.  
+The controller changes behaviour automatically depending on whether you are in a menu, selecting plants, or actively playing a level.
+
+### General
+
+| Input | Action |
+|---|---|
+| **A** | Tap / select / confirm |
+| **B** | Back in menus |
+| **Left Stick** | Move the cursor |
+| **D-Pad** | Move the cursor/focus |
+| **Minus (-)** | Show / hide the controller cursor/focus overlay |
+| **Touchscreen** | Native touch controls in handheld mode |
+
+### During a Level
+
+| Input | Action |
+|---|---|
+| **Left Stick** | Move over the lawn freely |
+| **D-Pad** | Move between the 9×5 lawn blocks staticly |
+| **A** | Plant the selected plant on the focused cell |
+| **L / R** | Select the previous / next seed packet |
+| **Plus (+)** | Pause / resume |
+| **Double-tap B** | Use the shovel on the focused plant |
+| **Double-tap X** | Use Plant Food on the focused plant |
+| **Hold ZL + Left Stick** | Temporarily use the free cursor instead of lawn-cell focus |
+| **Hold ZL + A** | Tap / drag with the free cursor |
+
+
+### Plant Selection
+Plant selection remains pointer-based rather than using the 9×5 lawn grid.
+- **Left Stick** moves the cursor freely.
+- **D-Pad** moves the cursor in larger steps.
+- **A** selects plants and presses UI buttons.
+- **B** goes back.
+- Touchscreen controls remain available in handheld mode.
+---
 
 ## Build
 
